@@ -1,8 +1,8 @@
-from layer import Layer 
+from .layer import Layer 
 import numpy as np
 
 class Dense(Layer):
-    def __init__(self, class_num=3, bias=1, momentum=0.01, learning_rate=0.05):
+    def __init__(self, class_num=3, bias=1, momentum=0.01, learning_rate=0.05, input_shape=None):
         super().__init__()
 
         self.class_num = class_num
@@ -12,13 +12,6 @@ class Dense(Layer):
         self.learning_rate = learning_rate
         # Error calculation, backprop
         self.delta_weight = []
-
-        # to be deleted
-        # self.prev_error = []
-        # self.passed_error = []
-        # self.error = []
-        # self.input = []
-        # self.output = []
 
     def init_params(self):
         class_num = self.class_num

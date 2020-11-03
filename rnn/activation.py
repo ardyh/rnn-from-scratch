@@ -1,4 +1,4 @@
-from layer import Layer 
+from .layer import Layer 
 import numpy as np
 
 class Activation(Layer):
@@ -6,15 +6,6 @@ class Activation(Layer):
         super().__init__()
         self.function_name = function_name
         self.class_num = class_num
-        
-        # Error calculation, backprop
-        
-        # to be deleted
-        # self.prev_error = []
-        # self.passed_error = []
-        # self.error = []
-        # self.input = []
-        # self.output = []
 
     def init_params(self):
         return None

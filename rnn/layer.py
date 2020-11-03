@@ -1,10 +1,10 @@
 import abc
 
 class Layer(metaclass=abc.ABCMeta):
-    def __init__(self):
+    def __init__(self, input_shape=None):
         self.input = []
         self.output = []
-        self.input_shape = []
+        self.input_shape = input_shape
         
         # Error calculation related variables
         self.error_calc_output = [] # for output layer
