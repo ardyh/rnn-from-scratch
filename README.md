@@ -1,2 +1,18 @@
-# rnn-from-scratch
-RNN Implementation with vanilla python and numpy
+# RNN Forward Propagation
+RNN Forward Propagation Implementation with vanilla python and numpy
+<br>
+
+## Installation
+```
+$ conda env create -f env.yml
+$ conda activate rnn
+```
+## Run program
+```
+$ python main.py
+```
+
+### Author
+- 13517042 | Muhamad Nobel Fauzan
+- 13517062 | Ardysatrio Fakhri Haroen
+- 13517066 | Willy Santoso
