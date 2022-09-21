@@ -1,5 +1,6 @@
 # RNN Forward Propagation
-RNN Forward Propagation Implementation with vanilla python and numpy
+RNN Forward Propagation Implementation with vanilla python and numpy \
+Originally forked from https://github.com/willysantoso05/rnn-from-scratch/tree/dev. My contributions was recorded there
 <br>
 
 ## Installation
